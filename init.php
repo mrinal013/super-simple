@@ -40,7 +40,7 @@ function custom_post_type() {
 		'description'           => __( 'Post Type Description', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => false,
-		'taxonomies'            => array( 'category', 'post_tag' ),
+		'taxonomies'            => array(  ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
